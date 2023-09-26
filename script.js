@@ -4,7 +4,7 @@ const modeButton = document.getElementById("modeButton");
 
 async function fetchPersons() {
     try {
-        const response = await fetch("data-uxh8OBAX1lc28WB3koA15.json"); // Reemplaza "URL_DEL_JSON" con la URL de tu servidor JSON
+        const response = await fetch("data-uxh8OBAX1lc28WB3koA15.json"); 
         const data = await response.json();
         data.forEach(person => {
             const li = document.createElement("li");
